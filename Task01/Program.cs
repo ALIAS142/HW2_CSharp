@@ -4,6 +4,12 @@
 // 782 -> 8
 // 918 -> 1
 
-Console.WriteLine("Enter number :");
+
+Console.WriteLine("Enter three-digit number number:   ");
 string strnumberA = Console.ReadLine();
 int numberA = Convert.ToInt32(strnumberA);
+
+int numberB = numberA/10;
+int numberC = numberB%10;
+
+Console.Write($"{numberC}");
